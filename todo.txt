@@ -1,0 +1,9 @@
+- verify usage of php_2_xmlrpc_type: when used with arrays...
+- move it to xmlrpc.inc, since xmlrpcs needs it?
+- add test case for EX:NIL
+- add test case for phpvals validation of types in both jsonrpc and xmlrpc (eg: empty structs)
+- remove 'function &' declarations for when objects are returned
+- add support for json_last_error to json_extension_api
+- try out using simplexml+relaxng for parsing and validating xmlrpc messages
+- add automatic encoding from/to php datetime objects
+
