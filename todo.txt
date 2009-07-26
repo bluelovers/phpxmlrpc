@@ -6,4 +6,8 @@
 - add support for json_last_error to json_extension_api
 - try out using simplexml+relaxng for parsing and validating xmlrpc messages
 - add automatic encoding from/to php datetime objects
+- add gui test for uri-too-long-error
+- allow xmlrpc server to register at the same time both functions accepting plain vals and functions accepting xmlrpcvals (#2806628)
+- allow server to bind to a specific IP (#2787468)
+- test base64_decode in js vs. native firefox version ( whitespace, empty strings) and close issue 2026022
 
