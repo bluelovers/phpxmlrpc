@@ -6,7 +6,7 @@
 - add test case for mixed-type servers in both jsonrpc and xmlrpc
 - add test case for client setting of curl extra options
 - add gui test for uri-too-long-error
-- verify regressions in connection times when using http11
+- verify regressions in connection times when using http11 (php5.2 vs. 5.0)
 - verify usage of php_2_xmlrpc_type: eg. when used with arrays...
 - move it to xmlrpc.inc, since xmlrpcs needs it?
 - remove 'function &' declarations for when objects are returned
