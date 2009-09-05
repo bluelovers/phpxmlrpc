@@ -1,4 +1,4 @@
-- test base64_decode in js vs. native firefox version (whitespace, empty strings) and close issue 2026022
+- fix 'make tag' in makefiles to use svn
 - emit a warning when encoding a resource to json in api emulation mode; try to error out when encoding invalid utf8
 - add support for 'options' param in json_encode in api emulation mode
 - add test cases for json_last_error
@@ -9,4 +9,6 @@
 - verify usage of php_2_xmlrpc_type: eg. when used with arrays...
 - move it to xmlrpc.inc, since xmlrpcs needs it?
 - remove 'function &' declarations for when objects are returned
-- try out using simplexml+relaxng for parsing and validating xmlrpc messages (memory usage + speed)
+- try using simplexml+relaxng for parsing and validating xmlrpc messages (memory usage + speed)
+- move clients and server members to __get, __set and add validation upon setting values to them
+- add an option to the client to raise exceptions instead of returning error responses
